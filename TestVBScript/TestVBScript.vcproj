@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="TestVBScript"
+	ProjectGUID="{1124140C-0159-41DF-91BD-CFF7037C4A9B}"
+	RootNamespace="TestVBScript"
+	TargetFrameworkVersion="196613"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="10"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="10"
+			CharacterSet="2"
+			WholeProgramOptimization="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static Release|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="10"
+			CharacterSet="2"
+			WholeProgramOptimization="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static Debug|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="10"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<File
+			RelativePath=".\Test.vbs"
+			>
+			<FileConfiguration
+				Name="Debug|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="copying $(InputPath) to $(SolutionDir)$(ConfigurationName)\"
+					CommandLine="copy &quot;$(InputPath)&quot; &quot;$(SolutionDir)$(ConfigurationName)\&quot;&#x0D;&#x0A;"
+					AdditionalDependencies="$(InputPath)"
+					Outputs="$(SolutionDir)$(ConfigurationName)\$(InputFileName)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="copying $(InputPath) to $(SolutionDir)$(ConfigurationName)\"
+					CommandLine="copy &quot;$(InputPath)&quot; &quot;$(SolutionDir)$(ConfigurationName)\&quot;&#x0D;&#x0A;"
+					AdditionalDependencies="$(InputPath)"
+					Outputs="$(SolutionDir)$(ConfigurationName)\$(InputFileName)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Static Release|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="copying $(InputPath) to $(SolutionDir)$(ConfigurationName)\"
+					CommandLine="copy &quot;$(InputPath)&quot; &quot;$(SolutionDir)$(ConfigurationName)\&quot;&#x0D;&#x0A;"
+					AdditionalDependencies="$(InputPath)"
+					Outputs="$(SolutionDir)$(ConfigurationName)\$(InputFileName)"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Static Debug|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="copying $(InputPath) to $(SolutionDir)$(ConfigurationName)\"
+					CommandLine="copy &quot;$(InputPath)&quot; &quot;$(SolutionDir)$(ConfigurationName)\&quot;&#x0D;&#x0A;"
+					AdditionalDependencies="$(InputPath)"
+					Outputs="$(SolutionDir)$(ConfigurationName)\$(InputFileName)"
+				/>
+			</FileConfiguration>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
